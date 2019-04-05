@@ -1,0 +1,56 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.cell {
+  margin: 0;
+  padding: 0;
+  width: 10px;
+  height: 10px;
+  background-color: brown;
+}
+
+.active {
+  background-color: yellow;
+}
+
+.start {
+  background-color: fuchsia;
+}
+
+.end {
+  background-color: aqua;
+}
+
+.button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 35px;
+  background-color: #437853;
+  color: white;
+  border: none;
+}
+
+.button:hover {
+  background-color: #356142;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  margin-top: 36px;
+}
