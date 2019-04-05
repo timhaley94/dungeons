@@ -1,9 +1,5 @@
 import { List, Set } from 'immutable';
-
-const UP = 'up';
-const DOWN = 'down';
-const LEFT = 'left';
-const RIGHT = 'right';
+import { UP, DOWN, LEFT, RIGHT } from '../config';
 
 function randomNumber(min, max) {
   return Math.floor(Math.random() * max) + min;
@@ -181,7 +177,7 @@ function mainPath({ width, height, changeProb }) {
   };
 }
 
-export function generateDungeon({ width, height }) {
+export function generate({ width, height }) {
   const {
     start,
     end,
