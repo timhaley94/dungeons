@@ -1,6 +1,7 @@
 body {
+  box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 25px;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -9,5 +10,8 @@ body {
 }
 
 canvas {
+  box-sizing: border-box;
   border: black 1px solid;
+  width: 100%;
+  max-width: 1500px;
 }
